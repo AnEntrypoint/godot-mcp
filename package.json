@@ -1,0 +1,32 @@
+{
+  "name": "@AnEntrypoint/godot-mcp",
+  "version": "1.0.0",
+  "description": "Model Context Protocol (MCP) server for Godot game engine - manage game state, actors, stages, and levels via AI tools",
+  "type": "module",
+  "bin": {
+    "start": "./index.js"
+  },
+  "main": "./index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "godot",
+    "model-context-protocol",
+    "game-engine",
+    "ai-tools"
+  ],
+  "author": "AnEntrypoint",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.6.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "preferGlobal": true,
+  "files": [
+    "index.js"
+  ]
+}
